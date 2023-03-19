@@ -4,4 +4,6 @@ mypy==1.1.1
 numpy==1.24.2
 pre-commit==3.2.0
 pur==7.1.0
+reorder-python-imports==3.9.0
 ruff==0.0.257
+scikit-learn==1.2.2
