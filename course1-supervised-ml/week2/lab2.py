@@ -8,7 +8,8 @@ def predict(x, w, b: int):
 
 
 def compute_cost(x, y, w, b):
-    return np.sum((np.dot(x, w) + b - y) ** 2)
+    m = len(x)
+    return np.sum((np.dot(x, w) + b - y) ** 2) / (2 * m)
 
     # m = x.shape[0]
     # cost = .0
